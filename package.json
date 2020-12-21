@@ -1,0 +1,40 @@
+{
+  "name": "bowtie2-website",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start --port ${PORT-3000}",
+    "tsc": "tsc -p .",
+    "create-table": "TS_NODE_COMPILER_OPTIONS='{\"module\":\"commonjs\"}' ts-node scripts/create-table.ts"
+  },
+  "dependencies": {
+    "@tailwindcss/typography": "^0.3.1",
+    "async-sema": "^3.1.0",
+    "dayjs": "^1.9.7",
+    "github-slugger": "^1.3.0",
+    "globby": "^11.0.1",
+    "gray-matter": "^4.0.2",
+    "next": "10.0.3",
+    "next-google-fonts": "^1.2.1",
+    "next-mdx-remote": "^1.0.1",
+    "next-seo": "^4.17.0",
+    "next-themes": "^0.0.10",
+    "prismjs": "^1.22.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-feather": "^2.0.9",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.11",
+    "@types/react": "^17.0.0",
+    "autoprefixer": "^10.1.0",
+    "postcss": "^8.2.1",
+    "prettier": "^2.2.1",
+    "tailwindcss": "^2.0.1",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.2"
+  }
+}
