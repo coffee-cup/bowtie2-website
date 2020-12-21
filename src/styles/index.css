@@ -9,6 +9,8 @@
 html,
 body {
   @apply antialiased;
+
+  /* background: linear-gradient(to bottom right, #ffa07a, #ff1493); */
 }
 
 /* Write your own custom component styles here */
