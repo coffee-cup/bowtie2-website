@@ -9,10 +9,10 @@ export interface Props extends NextSeoProps {
   image?: string;
 }
 
-const title = "Railway Blog";
-export const url = "https://blog.railway.app";
-const description = "Railway developer blog";
-const image = "https://railway.app/og.png";
+const title = "Bowtie";
+export const url = "https://bowtie.cards";
+const description = "Score keeping iOS app for card games";
+const image = "";
 
 const config: DefaultSeoProps = {
   title,
@@ -24,7 +24,7 @@ const config: DefaultSeoProps = {
     images: [{ url: image }],
   },
   twitter: {
-    handle: "@Railway_App",
+    handle: "@jakerunzer",
     cardType: "summary_large_image",
   },
 };

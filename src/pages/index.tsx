@@ -1,4 +1,4 @@
-import { GetStaticProps, NextPage } from "next";
+import { NextPage } from "next";
 import React from "react";
 import { Page } from "../layouts/Page";
 
