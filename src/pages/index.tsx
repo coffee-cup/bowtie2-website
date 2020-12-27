@@ -14,7 +14,7 @@ const Home: NextPage = () => {
               Bowtie
             </h1>
             <p className="mb-6 text-lg font-medium leading-relaxed">
-              Score Keeping iOS App for card and board games.
+              Score Keeping iOS App for card and board games.{" "}
               <br className="hidden lg:inline-block" />
               Ditch the pen and paper!
             </p>
