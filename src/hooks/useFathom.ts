@@ -8,6 +8,7 @@ export const useFathom = (trackingCode: string, siteUrl: string) => {
   useEffect(() => {
     // Initialize Fathom when the app loads
     Fathom.load(trackingCode, {
+      url: "https://jackal.jakerunzer.com/script.js",
       includedDomains: [siteUrl],
     });
 
