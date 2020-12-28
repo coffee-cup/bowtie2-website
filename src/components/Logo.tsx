@@ -9,7 +9,6 @@ export const Logo: React.FC = () => (
     xmlns="http://www.w3.org/2000/svg"
   >
     <g clipPath="url(#clip0)">
-      <rect width="128" height="128" fill="white" />
       <mask
         id="mask0"
         mask-type="alpha"

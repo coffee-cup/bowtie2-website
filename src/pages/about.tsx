@@ -1,17 +1,15 @@
 import { NextPage } from "next";
 import React from "react";
 import { Link } from "../components/Link";
+import { appStoreUrl } from "../constants";
 import { Page } from "../layouts/Page";
-import Image from "next/image";
 
 const About: NextPage = () => {
   return (
     <Page>
       <section>
         <div className="max-w-4xl w-full px-4 pb-12 mx-auto">
-          <h1 className="text-gray-900 font-bold my-12 text-5xl md:text-6xl">
-            About Bowtie
-          </h1>
+          <h1 className="my-12">About Bowtie</h1>
 
           <div className="prose">
             <p>
@@ -21,6 +19,10 @@ const About: NextPage = () => {
             </p>
 
             <h2>How to Use</h2>
+
+            <p>
+              <em>Only a single person needs to download and use Bowtie.</em>
+            </p>
 
             <p>
               Before the game starts, someone creates new game in Bowtie and
@@ -47,6 +49,10 @@ const About: NextPage = () => {
             <p>
               But please note, the core features of Bowtie will always remain
               free and without ads.
+            </p>
+
+            <p>
+              <Link href={appStoreUrl}>Download on the App Store</Link>
             </p>
           </div>
         </div>

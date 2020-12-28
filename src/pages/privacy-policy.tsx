@@ -6,9 +6,7 @@ const PrivacyPolicy: NextPage = () => {
   return (
     <Page seo={{ title: "Privacy Policy" }}>
       <div className="max-w-4xl w-full px-4 pb-12 mx-auto">
-        <h1 className="text-gray-900 font-bold my-12 text-5xl md:text-6xl">
-          Privacy Policy
-        </h1>
+        <h1 className="my-12">Privacy Policy</h1>
 
         <div className="prose">
           <p>

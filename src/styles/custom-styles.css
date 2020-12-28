@@ -1,0 +1,30 @@
+/* Write your own custom base styles here */
+
+html {
+  @apply antialiased text-base bg-gray-50;
+}
+
+/* Write your own custom component styles here */
+@layer components {
+  p,
+  ul,
+  ol,
+  li {
+    @apply text-gray-900;
+  }
+}
+
+/* Your own custom utilities */
+@layer utilities {
+  h1 {
+    @apply text-gray-900 font-bold text-5xl md:text-6xl;
+  }
+
+  a {
+    @apply hover:text-pink-600;
+  }
+
+  .prose a {
+    @apply hover:text-pink-600;
+  }
+}

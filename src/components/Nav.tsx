@@ -9,7 +9,7 @@ export const Nav: React.FC = () => (
         <Logo />
       </Link>
 
-      <Link className="font-medium hover:text-pink-600" href={"/about"}>
+      <Link className="font-medium" href={"/about"}>
         Learn More
       </Link>
     </nav>

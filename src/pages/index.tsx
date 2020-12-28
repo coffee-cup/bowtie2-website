@@ -3,6 +3,7 @@ import React from "react";
 import { Link } from "../components/Link";
 import { Page } from "../layouts/Page";
 import Image from "next/image";
+import { appStoreUrl } from "../constants";
 
 const Home: NextPage = () => {
   return (
@@ -13,14 +14,14 @@ const Home: NextPage = () => {
             <h1 className="sm:text-5xl text-4xl mb-4 font-extrabold text-gray-900">
               Bowtie
             </h1>
-            <p className="md:mb-6 mb-4 text-lg font-medium leading-relaxed">
+            <p className="md:mb-6 mb-4 text-lg leading-relaxed">
               Score Keeping iOS App for card games.{" "}
               <br className="inline-block" />
               Ditch the pen and paper!
             </p>
 
             <div className="">
-              <Link href="/">
+              <Link href={appStoreUrl}>
                 <img src="/badge.svg" alt="Download from App Store Badge" />
               </Link>
             </div>
