@@ -12,10 +12,12 @@ export const Page: React.FC<Props> = props => {
     <>
       <SEO {...props.seo} />
 
-      <div className="flex flex-col min-h-screen max-w-4xl w-full px-4 mx-auto">
+      <div className="flex flex-col min-h-screen max-w-6xl w-full px-4 mx-auto">
         <Nav />
 
-        <main className="flex-grow pb-12">{props.children}</main>
+        <main className="flex-grow max-w-6xl w-full mx-auto pb-12">
+          {props.children}
+        </main>
 
         <Footer />
       </div>
