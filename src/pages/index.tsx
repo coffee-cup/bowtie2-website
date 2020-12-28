@@ -32,6 +32,8 @@ const Home: NextPage = () => {
               alt="Screenshot of Bowtie card game"
               width={1450}
               height={2934}
+              quality={100}
+              priority
             />
           </div>
         </div>
