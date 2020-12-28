@@ -27,7 +27,7 @@ const Home: NextPage = () => {
             </div>
           </div>
 
-          <div className="max-w-sm">
+          <div className="max-w-xs">
             <Image
               src="/screenshot.png"
               alt="Screenshot of Bowtie card game"
