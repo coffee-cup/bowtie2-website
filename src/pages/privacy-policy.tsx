@@ -1,5 +1,6 @@
 import { NextPage } from "next";
 import React from "react";
+import { Link } from "../components/Link";
 import { Page } from "../layouts/Page";
 
 const PrivacyPolicy: NextPage = () => {
@@ -134,7 +135,8 @@ const PrivacyPolicy: NextPage = () => {
         </p>
         <p>
           If you have any questions or suggestions about my Privacy Policy, do
-          not hesitate to contact me at jakerunzer@gmail.com.
+          not hesitate to contact me at{" "}
+          <Link href="mailto:jakerunzer@gmail.com">jakerunzer@gmail.com</Link>.
         </p>
       </div>
     </Page>
