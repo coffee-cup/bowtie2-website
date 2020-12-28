@@ -1,4 +1,4 @@
-import Fathom from "fathom-client";
+import * as Fathom from "fathom-client";
 import { useRouter } from "next/dist/client/router";
 import { useEffect } from "react";
 
