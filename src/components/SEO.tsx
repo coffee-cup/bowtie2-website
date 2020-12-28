@@ -11,8 +11,9 @@ export interface Props extends NextSeoProps {
 
 const title = "Bowtie";
 export const url = "https://bowtie.cards";
-const description = "Score keeping iOS app for card games";
-const image = "";
+const description = "Score Keeping iOS App for card games";
+const iosAppId = "1544635020";
+const image = "https://bowtie.cards/og.png";
 
 const config: DefaultSeoProps = {
   title,
@@ -25,7 +26,7 @@ const config: DefaultSeoProps = {
   },
   twitter: {
     handle: "@jakerunzer",
-    cardType: "summary_large_image",
+    cardType: "app",
   },
 };
 
@@ -52,6 +53,12 @@ export const SEO: React.FC<Props> = ({ image, ...props }) => {
         <title>{title}</title>
 
         <meta name="description" content={description} />
+
+        <meta
+          name="twitter:app:name:iphone"
+          content="Bowtie: Score Keeping App"
+        />
+        <meta name="twitter:app:id:iphone" content={iosAppId} />
       </Head>
     </>
   );
