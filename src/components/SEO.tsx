@@ -26,7 +26,7 @@ const config: DefaultSeoProps = {
   },
   twitter: {
     handle: "@jakerunzer",
-    cardType: "app",
+    cardType: "summary_large_image",
   },
 };
 
