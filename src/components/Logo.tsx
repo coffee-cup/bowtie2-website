@@ -8,7 +8,7 @@ export const Logo: React.FC = () => (
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
-    <g clip-path="url(#clip0)">
+    <g clipPath="url(#clip0)">
       <rect width="128" height="128" fill="white" />
       <mask
         id="mask0"
@@ -46,8 +46,8 @@ export const Logo: React.FC = () => (
         y2="119.894"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#FFA07A" />
-        <stop offset="1" stop-color="#FF1493" />
+        <stop stopColor="#FFA07A" />
+        <stop offset="1" stopColor="#FF1493" />
       </linearGradient>
       <clipPath id="clip0">
         <rect width="128" height="128" fill="white" />

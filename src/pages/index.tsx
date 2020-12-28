@@ -8,14 +8,14 @@ const Home: NextPage = () => {
   return (
     <Page>
       <section className="text-gray-600">
-        <div className="max-w-4xl mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-          <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:text-left mb-16 md:mb-0">
+        <div className="max-w-4xl mx-auto flex px-5 py-12 md:flex-row flex-col items-center">
+          <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col items-center md:items-start text-center md:text-left mb-16 md:mb-0">
             <h1 className="sm:text-5xl text-4xl mb-4 font-extrabold text-gray-900">
               Bowtie
             </h1>
-            <p className="mb-6 text-lg font-medium leading-relaxed">
-              Score Keeping iOS App for card and board games.{" "}
-              <br className="hidden lg:inline-block" />
+            <p className="md:mb-6 mb-4 text-lg font-medium leading-relaxed">
+              Score Keeping iOS App for card games.{" "}
+              <br className="inline-block" />
               Ditch the pen and paper!
             </p>
 
@@ -26,7 +26,7 @@ const Home: NextPage = () => {
             </div>
           </div>
 
-          <div className="max-w-xs">
+          <div className="max-w-sm">
             <Image
               src="/screenshot.png"
               alt="Screenshot of Bowtie card game"
