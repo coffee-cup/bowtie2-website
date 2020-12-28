@@ -22,7 +22,7 @@ const config: DefaultSeoProps = {
     type: "website",
     url,
     site_name: title,
-    images: [{ url: image }],
+    images: [{ url: image, width: 1200, height: 628 }],
   },
   twitter: {
     handle: "@jakerunzer",
