@@ -8,8 +8,14 @@ export const Nav: React.FC = () => (
       <Logo />
     </Link>
 
-    <Link className="font-medium" href={"/about"}>
-      Learn More
-    </Link>
+    <div className="space-x-7">
+      <Link className="font-medium" href={"/about"}>
+        Learn More
+      </Link>
+
+      <Link className="font-medium hidden md:inline-block" href={"/feedback"}>
+        Feedback
+      </Link>
+    </div>
   </nav>
 );

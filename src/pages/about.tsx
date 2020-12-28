@@ -23,7 +23,7 @@ const About: NextPage = () => {
         </p>
 
         <p>
-          Before the game starts, someone creates new game in Bowtie and adds
+          Before the game starts, someone creates a new game in Bowtie and adds
           everyone who is playing. Each player has a colour associated with them
           and you can reuse players between games.
         </p>
