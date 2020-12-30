@@ -11,12 +11,12 @@ const About: NextPage = () => {
 
       <div className="prose">
         <p>
-          Bowtie is an iOS app for keeping score. It was originally designed to
-          be used while playing card games that had previously required someone
-          to keep score with pen and paper.
+          Bowtie is an iOS app for keeping score. It is designed as a
+          replacement to pen and paper for card games where you tally scores at
+          the end of each round.
         </p>
 
-        <h2>How to Use</h2>
+        <h2 id="how-to-use">How to Use</h2>
 
         <p>
           <em>Only a single person needs to download and use Bowtie.</em>
@@ -34,7 +34,7 @@ const About: NextPage = () => {
           the game and even graphs their scores over time.
         </p>
 
-        <h2>Premium</h2>
+        <h2 id="premium">Premium</h2>
 
         <p>
           Bowtie has a <em>premium</em> version that can be purchased with an

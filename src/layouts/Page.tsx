@@ -12,7 +12,7 @@ export const Page: React.FC<Props> = props => {
     <>
       <SEO {...props.seo} />
 
-      <div className="flex flex-col max-w-5xl w-full px-4 mx-auto">
+      <div className="flex flex-col max-w-5xl w-full px-6 mx-auto">
         <div className="min-h-screen">
           <Nav />
 
